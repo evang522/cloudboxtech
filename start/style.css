@@ -1,0 +1,63 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    background-size:cover;
+}
+
+#time {
+    margin-top:.5em;
+    color:white;
+    font-size:7em;
+    text-align:center;
+    text-shadow:  2px 2px 8px black;
+}
+
+#linksCont {
+    margin-top:3em;
+}
+
+
+
+#linksCont img{
+    width:6em;
+    padding:15px;
+}
+
+#links {
+    width:100vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+
+input {
+    width:15em;
+    height:1.5em;
+    font-size:2em;
+    display:block;
+    margin:0 auto;
+    text-align:center;
+}
+
+form {
+    margin-top:3em;
+}
+
+#greeting {
+    margin-top:.5em;
+    color:white;
+    font-size:5em;
+    text-align:center;
+    display:none;
+    text-shadow:  2px 2px 8px black;
+}
+
+
+
+@media screen and (max-width: 875px){
+  #time {
+      font-size:4em;
+  }
+}

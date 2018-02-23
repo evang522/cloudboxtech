@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+        <title>Download AMC Agent</title>
+
+    </head>
+    <body>
+        <div id="container">
+              <button id = "submit" onclick = "agentDownload()">AMC Remote Agent Download </button>
+        </div>
+        <script>
+            const load = () => {
+                location.href = 'http://access.athensmicro.com/dl.asp';
+            }
+           let agentDownload = () => {
+            document.body.style.backgroundColor = "black";
+            document.getElementById('submit').innerHTML = "Loading . . . "
+            setTimeout(load, 200);
+           };
+        
+        </script>
+    </body>
+</html>

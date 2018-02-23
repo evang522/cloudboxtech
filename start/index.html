@@ -1,0 +1,43 @@
+<!doctype=HTML>
+<html>
+    <head>
+        <title>Guten Tag!</title>
+        <link rel="shortcut icon" href="./files/favicon.ico"; />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="time">
+        </div>
+        <div id="linksCont">
+            <div id="links">
+                <a href="https://trello.com"><img src="./files/trello.png"></a>
+                <a href="https://drive.google.com"><img src="./files/drive.svg"></a>
+                <a href="https://facebook.com"><img src="./files/facebook.png"></a>
+                <a href="https://gmail.com"><img src="./files/gmail.svg"></a>
+                <a href="https://lastpass.com"><img src="./files/lastpass.svg"></a>
+                <a href="https://messenger.com"><img src="./files/messenger.svg"></a>
+				<a href="https://maps.google.com"><img src="./files/maps.svg"></a>
+				<a href="https://calendar.google.com"><img src="./files/calendar.png"></a>
+            </div>
+        </div>
+        <form id = "googs" action="http://www.google.com/search" class="searchform" method="get" name="searchform">
+            <input name="sitesearch" type="hidden">
+            <input class="form-controls search" name="q" required="required" autocomplete="off" type="text">
+        </form>
+        <div id="greeting">
+        </div>
+		
+    </body>
+	
+    <script src="brains.js">
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script> 
+		$('#greeting').fadeIn(900);
+    </script>
+        
+</html>

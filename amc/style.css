@@ -1,0 +1,29 @@
+body {
+    padding:0;
+    margin:0;
+    background-color:#333131;
+}
+
+#container {
+  display: block;
+  width:99%;
+  margin: 0 auto;
+  margin-top:12em;
+
+}
+
+#submit {
+    display:block;
+    height: 4em;
+    border:1px solid black;;
+    background-color:#ce1e1e;
+    border-radius:30px;
+    margin:0 auto;
+    font-size:3em;
+    color:white;
+    font-weight:bold;
+    font-family:roboto;
+    padding-left:1em;
+    padding-right:1em;
+
+}
